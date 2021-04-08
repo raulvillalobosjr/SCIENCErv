@@ -12,3 +12,6 @@ def circuit_power(voltage, current):
 
 def convertToSecs(hours, minutes):
 	return (hours*60*60)+(minutes*60)
+
+def frames(minutes, fps):
+	return fps*60*minutes
