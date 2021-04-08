@@ -9,3 +9,6 @@ def calc_age(age):
 
 def circuit_power(voltage, current):
 	return voltage*current
+
+def convertToSecs(hours, minutes):
+	return (hours*60*60)+(minutes*60)
