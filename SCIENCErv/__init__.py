@@ -15,3 +15,9 @@ def convertToSecs(hours, minutes):
 
 def frames(minutes, fps):
 	return fps*60*minutes
+
+def calculate_fuel(n):
+	if n<10:
+		return 100
+	else:
+		return n*10
