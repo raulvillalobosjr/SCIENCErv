@@ -21,3 +21,9 @@ def calculate_fuel(n):
 		return 100
 	else:
 		return n*10
+
+def area(h, w):
+	if h <= 0 or w <=0:
+		return -1
+	else:
+		return h*w
