@@ -27,3 +27,5 @@ def area(h, w):
 		return -1
 	else:
 		return h*w
+
+inches_to_feet = lambda inches: math.floor(inches/12)
