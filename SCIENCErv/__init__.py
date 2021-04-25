@@ -42,3 +42,6 @@ def leap_year(year):
 
 def pos_com(num):
 	return 2**num
+
+def weight_allowed(car, p, max_weight):
+	return (car+sum(p))<(max_weight*2.205)
