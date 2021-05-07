@@ -45,3 +45,9 @@ def pos_com(num):
 
 def weight_allowed(car, p, max_weight):
 	return (car+sum(p))<(max_weight*2.205)
+
+def stack_boxes(n):
+	if n<=0:
+		return n
+	else:
+		return n*n
