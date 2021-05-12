@@ -54,3 +54,12 @@ def stack_boxes(n):
 
 def km_to_miles(kilometers):
 	return round((kilometers * 0.621371), 5)
+
+def defangIPaddr(address):
+    defa=[]
+    for i in address:
+        if i == ".":
+            defa.append("[.]")
+        else:
+            defa.append(i)
+    return "".join(defa)
