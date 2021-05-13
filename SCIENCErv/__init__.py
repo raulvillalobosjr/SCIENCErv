@@ -66,3 +66,6 @@ def defangIPaddr(address):
 
 def back_to_home(directions):
 	return directions.count('N')==directions.count('S') and directions.count('E')==directions.count('W')
+
+def calc_kinetic_energy(m, v):
+    return round(1/2 * m * v**2)
